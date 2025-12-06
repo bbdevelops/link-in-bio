@@ -1,3 +1,172 @@
-<h1>This is my homepage</h1>
+<!DOCTYPE html>
 
-<h2>My link in bio</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BB Develops // Brian Brown</title>
+  <style>
+    html {
+      min-height: 100%;
+    }
+    body {
+      width: 98%;
+      max-width: 640px;
+      margin: 0 auto;
+      background: linear-gradient(180deg, #0a011c, #0b060b, #080307, #0b0809, #0b0607, #000000, #0b0604, #292522);
+      color: rgb(234, 226, 226);
+      font-family: "Sixtyfour", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      min-height: 100%;
+    }
+    a {
+      color: rgb(90, 201, 138);
+    }
+    .main-container {
+    padding: 0 20px;
+    }
+    .avatar {
+      width: 180px;
+      /*border: 1px white dashed;*/
+    }
+    .name-row {
+      border: 3px white dot;
+      padding: -5px;
+      margin-bottom: 30px;
+      display: block;
+    }
+    .image-row{
+      margin-bottom: 30px;
+    }
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .link {
+      /*border: 1px white dashed;*/
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      background-color: #1f005c;
+      border-radius: 20px 20px 20px 20px;
+      padding: 8px;
+      padding-right: 53px;
+      box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.42);
+      font-family: "Roboto Slab", sans-serif;
+    }
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
+    .link-text-2 {
+      margin-top: -50px;
+      text-align: center;
+      flex-grow: 1;
+    }
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      padding: 4px;
+      object-fit: cover;
+    }
+    .roboto-slab-bb {
+      font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+    }
+    .custom-icon {
+    font-size: 30px;
+    }
+    .header-cust {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      padding: 0 50px;
+    }
+    
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Sixtyfour&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="header-cust">
+      <div class="image-row">
+        <img src="/thumbnails/bbdevelops-imgt.svg" class="avatar" alt="">
+      </div>
+      
+      <div class="name-row">
+        <h1>Brian<br>Brown</h1>
+      </div>
+    </div>
+    <div class="link-text-2"><h4><strong>Development</strong> & <strong>Design</strong></h4></div>
+    </div>
+    
+    
+    <div class="social-icons-row">
+      <a href="https://github.com/bbdevelops" target="_blank">
+        <i class="fa-brands fa-github fa-2x"></i>
+      </a>
+      <a href="https://linkedin.com/in/bbdev" target="_blank">
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://behance.com/bzkldesign" target="_blank">
+        <i class="fa-brands fa-behance fa-2x"></i>
+      </a>
+      <a href="https://flickr.com/photos/bzkl" target="_blank">
+      <i class="fa-brands fa-flickr fa-2x"></i></i>
+      </a>
+    </div>
+
+    <div class="links-row">
+        <div class="link">
+          <img src="/thumbnails/mooc-fi.png" class="thumbnail" alt="">
+
+          <a class="link-text" link-texttarget="_blank" href="https://programming-25.mooc.fi/">
+          Python Programming MOOC 2025
+          </a>
+        </div>
+        <div class="link">
+          <img src="/thumbnails/rive_logo.svg" class="thumbnail" alt="">
+
+          <a class="link-text" target="_blank" href="https://rive.app/">
+          Rive - Create with motion - Design, code, and animate 
+          </a>
+        </div>
+
+        <div class="link">
+          <img src="/thumbnails/acm_logo_square-white.svg" class="thumbnail" alt="">
+
+          <a class="link-text" target="_blank" href="https://acm.org">
+            Association for Computing Machinery
+          </a>
+        </div>
+        <div class="link">
+          <img src="/thumbnails/hugging-face.svg" class="thumbnail" alt="">
+
+          <a class="link-text" target="_blank" href="https://huggingface.co/">
+          Hugging Face - The AI community building the future. 
+          </a>
+        </div>
+
+        <div class="link">
+          <img src="/thumbnails/white_ccrds_icon.png" class="thumbnail" alt="">
+
+          <a class="link-text" target="_blank" href="https://climrr.anl.gov/">
+          ClimRR- A central hub for dynamically downscaled future hazards data
+          </a>
+        </div>
+    </div>
+  </div>
+
+</body>
